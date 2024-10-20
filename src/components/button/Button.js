@@ -2,7 +2,10 @@ import React from "react";
 
 const Button = () => {
     return(<div>
-        Este es el componente Botón, aquí debes agregar tu código html - jsx
+
+    <button onClick={() => alert("¡Botón presionado!")}>
+                Presionar
+            </button>
     </div>);
 };
 
